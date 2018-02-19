@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.NegativeException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.CellsIniException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.PlayException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.MoveException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.SaveException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="tp.pr3.logic.multigames.GameType"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.LoadException"/>
+<fullyQualifiedTypeName name="tp.pr3.exceptions.NotRightFileException"/>
+</qualifiedTypeNameHistroy>
