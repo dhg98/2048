@@ -3,7 +3,8 @@ package tp.pr3.logic.multigames;
 public enum GameType { 
 	ORIG("2048, original version", "original", new Rules2048()), 
 	FIB("2048, Fibonacci version", "fib", new RulesFib()), 
-	INV("2048, inverse version", "inverse", new RulesInverse());
+	INV("2048, inverse version", "inverse", new RulesInverse()),
+	ELEVEN("2048, eleven version", "eleven", new RulesEleven());
 	private String userFriendlyName;
 	private String parameterName;
 	private GameRules correspondingRules;

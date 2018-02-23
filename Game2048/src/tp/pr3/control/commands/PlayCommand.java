@@ -18,7 +18,7 @@ public class PlayCommand extends Command{
 	{
 		/*Implementacion: Se inicializa con el constructor de la super clase con la cadena de ayuda y el tipo de comando.		 * 
 		 */
-		super("start a new game of one of the game types: original, fib, inverse", "play <game>");
+		super("start a new game of one of the game types: original, fib, inverse, eleven", "play <game>");
 	}
 	
 	/**Metodo que ejecuta el comando play. Pide por pantalla todos los parametros necesarios para ejecutar tantas veces como
@@ -103,6 +103,10 @@ public class PlayCommand extends Command{
 		case INV: {
 			game.setCurrentRules(GameType.INV);
 		}break;
+		case ELEVEN: {
+			game.setCurrentRules(GameType.ELEVEN);
+		}
+		break;
 		default:
 			throw new FatalErrorException("");
 		}		
